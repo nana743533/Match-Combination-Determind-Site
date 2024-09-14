@@ -1,0 +1,77 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0px;
+  z-index: 10 ;
+}
+
+.header-left {
+  float: left;
+  height: 60px;
+  width: 600px;
+  color: white;
+}
+
+.header-left p {
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0px;
+  font-size: 20px;
+}
+
+.header-right {
+  float: right;
+  width: 400px;
+  line-height: 60px;
+}
+
+.header-right a {
+  display: block;
+  float: right;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.header-right a:hover {
+  opacity: 0.8;
+  transition: all 1s;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+main {
+  height: 1000px;
+}
+
+
+
+footer {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 60px;
+  width: 100%;
+}
+
+footer p {
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0px;
+  font-size: 20px;
+  color: white; 
+}
